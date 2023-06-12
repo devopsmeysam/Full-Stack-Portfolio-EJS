@@ -4,14 +4,20 @@ Student ID: 301248106
 Date: Thursday, October 18th, 2022 */
 
 exports.home = function(req, res, next) {
-    res.render('home', { title: 'Home Page', name: 'Portfolio', userName: req.user ? req.user.username: '' });
+    res.render('home', 
+    { 
+      title: 'Home Page',
+      name: 'Portfolio',
+      userName: req.user ? req.user.username: ''
+    });
 }
 
 exports.about = function(req, res, next) {
     res.render('aboutMe', 
     { 
       title: 'About Me',
-      name: 'Meysam',
+      firstName: 'Meysam',
+      lastName: 'Mahdavikhansari',
       userName: req.user ? req.user.username: ''
     });
 }

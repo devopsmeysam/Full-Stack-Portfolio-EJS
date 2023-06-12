@@ -56,3 +56,11 @@ button {
 .flash {
   color: #FF0000;
 }
+/* Sets the Footer in the centre of the screen */
+#footStyle {
+  text-align: center;
+}
+/* Sets the color of the projectsImages to RED */
+#projectsImages {
+  color: #FF0000;
+}
