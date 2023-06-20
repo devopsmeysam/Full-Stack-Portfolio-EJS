@@ -64,17 +64,17 @@ button {
 #projectsImages {
   color: #FF0000;
 }
-
-@media (max-width: 480px) {
-  /* Add appropriate styles for mobile */
-  body {
-    width: 480px;
-    padding: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  h4 {
-    text-align: justify;
-    text-justify: inter-word;
-    padding-right: 8px;
-  }
-}
+/* Sets the project index centered */
+/* #projectIndex {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 0;
+  border-top: 2px solid blueviolet;
+  border-bottom: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+} */
+/* td:hover {
+  transform: scale(1.1);
+} */
