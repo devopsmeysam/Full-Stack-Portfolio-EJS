@@ -5,9 +5,12 @@ Date: Thursday, October 13th, 2022 */
 
 /* Sets the size of the web pages */
 body {
-  width: 1268px;
-  padding: 30px;
+  width: auto;
+  /* padding: 0px; */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#mainContents {
+  padding: 30px;
 }
 /* Sets the properties of the hyperlinks */
 a {
@@ -65,16 +68,16 @@ button {
   color: #FF0000;
 }
 /* Sets the project index centered */
-/* #projectIndex {
+#projectIndex {
   margin-left: auto;
   margin-right: auto;
-  border-collapse: collapse;
-  border: 0;
-  border-top: 2px solid blueviolet;
+  /* border-collapse: collapse; */
+  /* border: 0; */
+  /* border-top: 2px solid blueviolet;
   border-bottom: 2px solid blueviolet;
-  border-left: 2px solid blueviolet;
-  border-right: 2px solid blueviolet;
-} */
+  border-left: 2px solid blueviolet; */
+  /* border: 2px solid blueviolet; */
+}
 /* td:hover {
   transform: scale(1.1);
 } */

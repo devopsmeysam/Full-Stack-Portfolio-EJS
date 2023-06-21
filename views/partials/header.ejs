@@ -9,12 +9,13 @@
   </head>
   <body>
     <!-- Navbar with bootstrap -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top"> -->
+    <nav class="navbar navbar-inverse fixed-top">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <img src="../../images/fLogo.jpg" alt="Logo" height="50" width="80">
-          </div>
-          <ul class="nav navbar-nav">
+            <div class="navbar-header">
+              <img src="../../images/fLogo.jpg" alt="Logo" height="50" width="80">
+            </div>
+            <ul class="nav navbar-nav">
                 <% if(title == "Home Page"){ %>
                     <li class="active"><a class="nav-link active" href="/"><i class="fa-solid fa-house"></i> Home Page</a></li>
                 <% } else { %>
@@ -66,6 +67,6 @@
                         <a class="nav-link" href="/users/signup"><i class="fa-solid fa-user-plus"></i> Signup</a>
                     <% } %>            
                 </li>
-          </ul>
+            </ul>
         </div>
     </nav>
